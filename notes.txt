@@ -1,0 +1,40 @@
+npm create-react-app ./
+npm start
+
+make sure to write 
+	- import React from 'react' // bcoz is not originally written
+
+- Create a components folder in src
+	- .jsx & .css
+	- folder name for compoonents should be small, first letter of component name should be capital, and for css file use small case
+
+- We need to create import statement for all the componenets in App.js
+	- To avoid mess, create a index.js file in components folder, and write export {default as Navbar} from './navbar/Navbar'
+
+- NOw, import all of these components to App.js using import {Article, Navbar, .. } from './components';
+
+- Now, we won't import all the components directly to app.js, 
+	- We wil create containers folder, that are bigger components consisting of multiple componenets. 
+
+- Now, create jsx and css file for all the containers, and create index.js inside container and export componenets
+
+- set app.css file -> * {box-styling, margin, padding, 
+
+- In index.js -> set the variable name and make them global by placing them inside :root
+	- --font-family : 'Manrope'
+	- --color-bg : #somecolor
+
+- define gradients, --gradient-text
+
+- generate css gradient code using angry tools
+- generate animations using animista
+- make responsive using ( @media and screen (max-width = 700px/550px ) {}
+
+- Now import basic icons using react icons 
+
+- use BEM -> block element modifier -> for naming classNames !!
+
+- Now, start writing CSS in navbar.css
+	- 70% of times use { display : flex , align-items : center, justify-items: center }
+
+left at 43.. 
